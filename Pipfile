@@ -4,8 +4,12 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+wheel = "*"
 jupyter = "*"
 numpy = "*"
+pandas = "*"
+sklearn = "*"
+matplotlib = "*"
 
 [dev-packages]
 
